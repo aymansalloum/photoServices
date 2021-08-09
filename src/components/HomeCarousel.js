@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Carousel.css'
+import './HomeCarousel.css'
 
 import {
   Carousel,
@@ -27,7 +27,7 @@ const items = [
   }
 ];
 
-const Home = (props) => {
+const HomeCarousel = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -75,4 +75,4 @@ const Home = (props) => {
   );
 }
 
-export default Home;
+export default HomeCarousel;
