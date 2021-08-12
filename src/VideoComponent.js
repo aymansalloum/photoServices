@@ -1,5 +1,5 @@
 import './Video.css';
-const VideoComponent = () => {
+export const VideoComponent = () => {
     return(
         <div className="wrapper">
             <video autoplay= "true" loop muted class="wrapper__video">
@@ -11,4 +11,4 @@ const VideoComponent = () => {
         </div>
     );
 }
-export default VideoComponent;
+// export default VideoComponent;

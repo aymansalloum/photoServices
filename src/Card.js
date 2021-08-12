@@ -1,5 +1,5 @@
 import './Card.css';
-const Card = ()=>{
+export const Card = ()=>{
     return(
         <div class="imgholder">
             <div class="profile-sidebar">
@@ -13,4 +13,4 @@ const Card = ()=>{
         </div>
     );
 }
-export default Card;
+// export default Card;
