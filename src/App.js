@@ -4,10 +4,8 @@ import Footer from './components/FooterComponent'
 import Home from './pages/Home'
 import { BrowserRouter as Router, Switch, Route   } from 'react-router-dom'
 import './App.css';
-<<<<<<< HEAD
-=======
 
->>>>>>> c317aac28c2baf5d17938faee4fd2735f7d71a18
+
 function App() {
   return(
     <React.Fragment>
