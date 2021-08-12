@@ -1,50 +1,74 @@
-.container{
-     /* border:2px solid black; */
-    position: relative;
-    margin-top:5rem;
-    justify-content: center;
-    align-items: center;
+.imgholder{
+    width:100%;
+    max-width: 1200px;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+    color:black;
+    text-align: center;
+    padding: 2em;
+    align-items:center;
+    align-content: center;
+}
+.profile-name{
+    font-size:2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    color:rgb(131, 33, 70);
+}
+.profile-name::after{
+    content:"";
+    display:block;
+    height:1px;
+    width:4em;
+    background:rgb(131, 33, 70);
+    margin: 0.5em auto;
+    opacity: 0.8;
+}
+.profile-position{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+.profile-image{
+box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
+transition: transform 0.5s ease; 
 }
 
-.img-control{
-box-shadow: 0 0 10px 0;
-align-content: center;
-margin:4px;
-height:53.5vh;
-transition: transform 0.3s ease;
+.profile-image:hover{
+transform: scale(1.1);
+overflow: hidden; 
+transition: 1000ms;
 
 }
 
-.img-control:hover{
-    transform: scale(1.1);
-    overflow: hidden;
-    height:53.5vh;
-    transition: 700ms;    
+.profile-body{
+    font-weight: 300;
+    opacity:0.8;
+    margin-bottom: 0 ;
 }
+@media (min-width:670px) {
+    .imgholder{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width:1200px;
+        max-height: 60vh;
+        margin: 0 auto;
+    }
+    .profile-main{
+        text-align: left;
+        margin-left:2em;
+    }
+    .profile-name::after{
+        content:"";
+        width:6.5em;
+        margin-left:0;
 
-.text-control{
-    padding-left: 2rem;
-text-align: center;
- /* border: 2px solid green;  */
-height:52vh;
-width:40vh;
-font-size: 1.5rem;
-line-height: 2.5rem;
-align-content: flex-end;
+    }
 }
-.btn {
-    position: absolute;
-    top:38rem;
-    left:93rem;
-}
-
-.btn a{
-    text-decoration: none;
-    border: 5px solid#ffab0f;
-    color:white;
-    font-size:1.5rem;
-    background-color:#ffab0f;
+@media (max-width:436px) {
+    .profile-image{
+        max-width: 300px;
+        max-height: 400px;
+    }
 }
