@@ -8,7 +8,6 @@
     text-align: center;
     padding: 2em;
     margin:0  auto;
-    
 }
 .profile-name{
     font-size:2rem;
@@ -31,15 +30,14 @@
     letter-spacing: 3px;
 }
 .profile-image{
-box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
-transition: transform 0.5s ease; 
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease; 
 }
 
 .profile-image:hover{
-transform: scale(1.1);
-overflow: hidden; 
-transition: 1000ms;
-
+    transform: scale(1.1);
+    overflow: hidden; 
+    transition: 1000ms;
 }
 
 .profile-body{
@@ -52,7 +50,6 @@ transition: 1000ms;
     .imgholder{
         display: flex;
         flex-direction: row;
-        
         max-width:1200px;
         max-height: 60vh;
         margin: 0 auto;
@@ -65,34 +62,11 @@ transition: 1000ms;
         content:"";
         width:6.5em;
         margin-left:0;
-
     }
-    .profile-image{
-    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease; 
-}
-
-.profile-image:hover{
-    transform: scale(1.1);
-    overflow: hidden; 
-    transition: 1000ms;
-
-}
 }
 @media (max-width:436px) {
     .profile-image{
         max-width: 300px;
         max-height: 400px;
     }
-    .profile-image{
-    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease; 
-}
-
-.profile-image:hover{
-    transform: scale(1.1);
-    overflow: hidden; 
-    transition: 1000ms;
-
-}
 }
