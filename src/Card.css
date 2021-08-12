@@ -1,13 +1,14 @@
 .imgholder{
     width:100%;
-    max-width: 1200px;
+    max-width: 700px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    color:black;
     text-align: center;
     padding: 2em;
-    align-items:center;
-    align-content: center;
+    margin:0  auto;
+    
 }
 .profile-name{
     font-size:2rem;
@@ -42,6 +43,7 @@ transition: 1000ms;
 }
 
 .profile-body{
+    text-align:justify;
     font-weight: 300;
     opacity:0.8;
     margin-bottom: 0 ;
@@ -50,7 +52,7 @@ transition: 1000ms;
     .imgholder{
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        
         max-width:1200px;
         max-height: 60vh;
         margin: 0 auto;
