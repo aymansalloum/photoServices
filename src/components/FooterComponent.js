@@ -8,7 +8,7 @@ function Footer(props){
             <div className="container">
                 <div className="row">             
                     <div className="col-4 col-sm-3 ">
-                        <h5 className="fonts">Links</h5>
+                        <h4 className="fonts">Links</h4>
                         <ul className="list-unstyled">
                             <li><Link to="/home">Home</Link></li>
                             <li><Link to="/gallery">Gallery</Link></li>
@@ -17,7 +17,7 @@ function Footer(props){
                         </ul>
                     </div>
 
-                    <div className="col-sm-3 col-6 text-center">
+                    <div className="col-sm-3 col-6 text-center mt-3">
                         <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone fonts" /> 1-800-800-8000</a><br />
                         <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o fonts" /> email@company.com</a>
                     </div>
