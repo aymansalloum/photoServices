@@ -11,4 +11,3 @@ export const VideoComponent = () => {
         </div>
     );
 }
-// export default VideoComponent;
