@@ -9,6 +9,7 @@ import {
   NavLink,
    NavbarText
 } from 'reactstrap';
+import './HeaderComponent.css'
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,11 +33,9 @@ const Header = (props) => {
               <NavLink href="#">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Write Me</NavLink>
+              <NavLink href="#">Contact</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="#">Login</NavLink>
-            </NavItem>
+            
            
           </Nav>
 
