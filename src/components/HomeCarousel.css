@@ -1,10 +1,24 @@
 .carousel-inner {
-    height: calc(100vh - 78px);
-    object-fit: cover;
+    height: auto;
+    object-fit: fill;
+    margin-bottom: 2rem;
 }
-
+@media (max-width:300px) {
+  .carousel-inner {
+    height: 10vh;
+    object-fit: fill;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width:1029px) {
+  .carousel-inner {
+    height: 75vh;
+    object-fit: fill;
+    margin-bottom: 1rem;
+  }
+}
 .carousel-item img {
-    width: 100%;
+   width:100%;
     height: auto;
 }
 
